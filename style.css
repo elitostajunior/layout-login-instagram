@@ -16,9 +16,9 @@ header div {
     border: 1px solid red;
 }
 
-nav {
+/* nav button {
     border: 1px solid blue;
-}
+} */
 
 nav ul {
     list-style: none;
@@ -58,24 +58,28 @@ main {
     background-color: lightsalmon;
 }
 
+.capa-principal {
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    background-color: #74caee;
+}
+
+#bloco-imagem {
+    border: 1px solid purple;
+}
+
+#bloco-imagem img {
+    height: 100%;
+}
+
+#bloco-texto {
+    border: 1px solid blue;
+    min-width: 30vw;
+}
+
 footer {
     background-color: #3d3d3d;
     min-height: 5vh;
     color: #fff;
-}
-
-.capa-principal {
-    height: 50vh;
-    display: grid;
-    grid-template-columns: 70vw auto;
-}
-
-#bloco-imagem {
-    background-color: bisque;
-    border: 1px solid purple;
-}
-
-#bloco-texto {
-    background-color: aqua;
-    border: 1px solid blue;
 }
